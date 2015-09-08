@@ -1,0 +1,36 @@
+body {
+   margin: 0;
+}
+
+p {
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 50px;
+	color: red;
+}
+
+p:hover {
+	color: green;
+	cursor: pointer;
+}
+
+#container {
+	width: 50%;
+	height:100px;
+	background: orange;
+	transition: all 0.3s;
+}
+
+#container:hover {
+	width: 100%;
+}
+
+#container.expand {
+	width: 100%;
+}
+
+.child {
+	width: 50%;
+	height:100px;
+	background: blue;
+}
